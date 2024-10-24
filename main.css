@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", sans-serif; /*Google Font*/
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0 20px;
+  color: #333; /*Color is text color remember that*/
+}
+
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; /*Google Font*/
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* Styling for all sections (general layout and spacing) */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Styling for section backgrounds */
+#pantry-items {
+  background: linear-gradient(135deg, #e0f7fa, #e0f2f1); /* Subtle gradient */
+  padding: 20px;
+}
+
+#refrigerator-items {
+  background: linear-gradient(135deg, #d0e8f2, #e8f1f2); /* Subtle gradient */
+  padding: 20px;
+}
+
+#frozen-items {
+  background: linear-gradient(135deg, #d1c4e9, #b3e5fc); /* Subtle gradient */
+  padding: 20px;
+}
+
+/* #pantry-items h2,
+#refrigerator-items h2,
+#frozen-items h2 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+} */
+
+h2 {
+  font-family: "Open Sans", sans-serif; /*Google Font*/
+  font-size: 2em;
+  color: #2c3e50;
+  border-bottom: 1px solid #34495e; /* Underline with color */
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  color: #2c3e50;
+  padding-top: 15px;
+}
+
+img {
+  padding-top: 15px;
+}
+
+/* Specific override for striped rows in a Bootstrap table */
+.table.table-striped tbody tr:nth-child(odd) {
+  background-color: #e3e5f1 !important; /* Force custom color */
+}
